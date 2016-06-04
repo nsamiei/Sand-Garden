@@ -1,2 +1,58 @@
-body{
+body {
+	background-color: #0056FF!important;
 }
+
+#frontLargeTitle {
+	margin: 100px 0 0 0;
+	text-align: center;
+}
+
+	#frontLargeTitle span {
+		font-family: 'Oswald';
+		font-weight: 900;
+		letter-spacing: 8px;
+		font-size: 9em;
+		color: #fff;
+		text-transform: uppercase;
+		-moz-text-shadow: 10px 10px 5px #888;
+		-webkit-text-shadow: 10px 10px 5px #888;
+		text-shadow: 1px 1px 0px #bbb, 2px 2px 0px #bbb, 3px 3px 0px #bbb;
+	}
+	
+#frontSmallTitle {
+	margin: 20px 0 0 0;
+	text-align: center
+}
+
+	#frontSmallTitle span.main {
+		font-family: 'Oswald';
+		font-size: 2em;
+		color: #9bf;
+	}
+	
+#frontButtons {
+	margin: 100px 0 0 0;
+}
+
+	#frontButtons a.mainButtons {
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		-webkit-box-shadow: #6E7849 0 0 10px;
+		-webkit-transition: all 0.5s ease;
+		background-color: #95CC1E;
+		border: 1px solid #75a017;
+		color: #ffffff;
+		display: inline-block;
+		font-size: 3em;
+		margin: auto;
+		padding: 15px;
+		text-decoration: none;
+		transition: all 0.5s ease;
+	}
+	
+	#frontButtons a.mainButtons:hover {
+		background-color: #FFF;
+		color: #95cc1e;
+		padding: 15px;
+	}

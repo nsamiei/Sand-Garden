@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="author" content="Galenic">
+
+  	<link rel="stylesheet" href="/static/games/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="/static/games/css/games.css">
+  	
+  	<title>Sand Garden Games</title>
+
+</head>
+
+
+<body>
+	<nav class="navbar navbar-inverse shadow" style="border:none;">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">Sand Garden</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="dropdown">
+				<li><a href="/">&nbsp;Home&nbsp;</a></li>
+				<li role="separator" class="divider"></li>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+
+	<h3 style="text-align:center; color:white; opacity:0.57;">Games</h3>
+	
+	<div id="game-slider" class="shadow text-center">
+		<div id="wrapper">
+		{% include "games/gameimages.html" %}
+		</div>
+	</div>
+	
+	<div id="game-container" class="shadow text-center">
+		{% include "games/gamescreen.html" %}
+	</div>
+	
+	
+	
+	</div>
+  	<script src="/static/games/js/jquery-2.4.4.min.js"></script>
+  	<script src="/static/games/js/bootstrap.min.js"></script>
+  <script src="/static/games/js/games.js"></script>
+</body>
+
+</html>
